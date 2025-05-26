@@ -1,8 +1,6 @@
 # Ideology-Search
 
-A domain-specific search engine featuring a high-performance Python-based asyncio/aiohttp crawler that gathered & deduplicated 100K+ English web pages, extracted metadata & hyperlink graphs for an inverted TF-IDF, PageRank & HITS index.
-
-This project develops the full crawling → indexing → UI pipeline and benchmarks its semantic precision and contextual relevance against Google and Bing.
+A domain-specific “Ideologies” search engine featuring a high-performance Python-based asyncio/aiohttp crawler that gathered & deduplicated 100K+ English pages, extracted metadata & hyperlink graphs for an inverted TF-IDF, PageRank & HITS index. This project develops the full crawling → indexing → UI pipeline and benchmarks its semantic precision & contextual relevance against Google & Bing.
 
 ---
 
@@ -14,6 +12,7 @@ This project develops the full crawling → indexing → UI pipeline and benchma
 - [Frontend Setup](#frontend-setup)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Benchmarks](#benchmarks)
 - [License](#license)
 
 ---
@@ -152,6 +151,14 @@ frontend/
   ├── public/
   └── src/                 # React source code
 ```
+
+---
+
+## Final Result
+
+Below is a screenshot of the search engine UI and results in action:
+
+![Final Result Screenshot](ss.png)
 
 ---
 
