@@ -1,6 +1,8 @@
 # Ideology-Search
 
-A domain-specific “Ideologies” search engine featuring a high-performance Python-based asyncio/aiohttp crawler that gathered & deduplicated 100K+ English pages, extracted metadata & hyperlink graphs for an inverted TF-IDF, PageRank & HITS index. This project develops the full crawling → indexing → UI pipeline and benchmarks its semantic precision & contextual relevance against Google & Bing.
+A domain-specific search engine featuring a high-performance Python-based asyncio/aiohttp crawler that gathered & deduplicated 100K+ English web pages, extracted metadata & hyperlink graphs for an inverted TF-IDF, PageRank & HITS index.
+
+This project develops the full crawling → indexing → UI pipeline and benchmarks its semantic precision and contextual relevance against Google and Bing.
 
 ---
 
